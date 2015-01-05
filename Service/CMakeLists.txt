@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project(SERVER)
+aux_source_directory(${SERVER_SOURCE_DIR} CPP_LISTS)
+#SET(SRC_LIST Server.cpp UserService.cpp User_types.cpp User_constants.cpp User_constants.h UserService.h User_types.h )
+include_directories(/usr/local/include/thrift)
+link_directories(/usr/local/lib)
+add_executable(Server ${CPP_LISTS})
+target_link_libraries(Server -lthrift)

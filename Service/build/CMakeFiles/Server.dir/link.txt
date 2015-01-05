@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Server.dir/User_types.cpp.o CMakeFiles/Server.dir/Server.cpp.o CMakeFiles/Server.dir/UserService.cpp.o CMakeFiles/Server.dir/User_constants.cpp.o  -o Server  -L/usr/local/lib -rdynamic -lthrift -Wl,-rpath,/usr/local/lib 
